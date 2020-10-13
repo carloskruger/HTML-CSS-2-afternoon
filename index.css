@@ -12,6 +12,7 @@ input {
 	height: 25px;
 }
 header img {
+	margin-left: 15px;
 	height: 30px;
 }
 
@@ -99,6 +100,7 @@ h3 {
 h4 {
 	margin-top: 20px;
 	margin-left: 30px;
+	font-size: 18px;
 }
 .left-side button {
 	margin-top: 20px;
@@ -110,7 +112,7 @@ h4 {
 .project-box {
 	width: 30vw;
 	height: 15vw;
-	border: 1px;
+	border: 0.5px;
 	border-style: dotted;
 }
 

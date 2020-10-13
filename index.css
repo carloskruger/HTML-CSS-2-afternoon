@@ -8,6 +8,7 @@ header {
 }
 
 input {
+	margin-left: 20px;
 	height: 25px;
 }
 header img {
@@ -65,11 +66,12 @@ a {
 }
 
 .projects {
-	margin-left: 30px;
+	/* margin-left: 30px; */
 	display: flex;
 	flex-wrap: wrap;
 	width: 75vw;
 	height: 90vh;
+	justify-content: space-around;
 }
 
 body {
@@ -107,8 +109,9 @@ h4 {
 
 .project-box {
 	width: 30vw;
-	height: 30vw;
-	border: 3px;
+	height: 15vw;
+	border: 1px;
+	border-style: dotted;
 }
 
 .project-box h3 {
